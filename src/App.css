@@ -1,0 +1,136 @@
+.navbar {
+  background-color:#FFEA00;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.navbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  width: 100px;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  /* background-color: lightgray; */
+}
+
+.navbar-menu div {
+  margin: 0 10px;
+}
+
+.header {
+  margin: 10px;
+  display: flex;
+  height: 300px;
+}
+.header-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(255, 102, 102); */
+  width: 400px;
+  margin: 10px;
+}
+
+.header-content {
+  /* background-color: green; */
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-isi {
+  padding: 10px 0 0 0;
+  height: 65%;
+  /* background-color: blue;   */
+  display: flex;
+  flex-direction: row;
+}
+
+.header-button {
+  background-color: aquamarine;
+  width: 100px;
+  height: 50px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-button:hover {
+  background-color: aqua;
+}
+
+.header-isi-attr {
+  width: 180px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header-isi-value {
+  width: 200px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.lists-card {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgrey;
+  min-height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lists-card  div {
+  margin : 10px;
+}
+
+.list-card {
+  background-color: pink;
+  width: 31%;
+  max-width: 400px;
+  height: 400px;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+.pagination-button{
+  padding: 10px;
+}
+@keyframes blink { 
+  70% {border-style: double} 
+}
+.pagination-button-selected{
+  padding: 10px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  
+  animation: blink .5s ease-in-out infinite alternate;
+}
+
+
+
+
+
